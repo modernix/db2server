@@ -15,4 +15,4 @@ tar -zxvf v9.7fp9_linuxx64_server.tar.gz --owner root --group root --no-same-own
 /vagrant/server/db2setup -r /vagrant/db2ese.rsp
 
 #registering the DB2's license
-#/opt/ibm/v9.7/bin/db2licm -a /vagrant/db2.lic
+/opt/ibm/db2/V9.7/adm/db2licm -a /vagrant/db2ese_c.lic
